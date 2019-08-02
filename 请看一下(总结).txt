@@ -1,0 +1,9 @@
+软件名称：ckplayer
+版本：X1
+请将ckplayer放在网站环境中运行
+
+要修改 加载和右上角图标 请在ckplayer.js中 搜索 loading  和 logo  
+
+要删除 直接 将其间类容改为null ,同时更改ckplayer.xml 中的<loading>null</loading>  <logo></logo>
+
+为避免chrome浏览器的样式问题 （如在vue-cli中，学在app.vue 中设置 合适的font-size, 如16px)
