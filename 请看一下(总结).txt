@@ -1,9 +1,11 @@
-�������ƣ�ckplayer
-�汾��X1
-�뽫ckplayer������վ����������
+软件名称：ckplayer
+版本：X1
+请将ckplayer放在网站环境中运行
 
-Ҫ�޸� ���غ����Ͻ�ͼ�� ����ckplayer.js�� ���� loading  �� logo  
+要修改 加载和右上角图标 请在ckplayer.js中 搜索 loading  和 logo  
 
-Ҫɾ�� ֱ�� ��������ݸ�Ϊnull ,ͬʱ����ckplayer.xml �е�<loading>null</loading>  <logo></logo>
+要删除 直接 将其间类容改为null ,同时更改ckplayer.xml 中的<loading>null</loading>  <logo></logo>
 
-Ϊ����chrome���������ʽ���� ������vue-cli�У�ѧ��app.vue ������ ���ʵ�font-size, ��16px)
+为避免chrome浏览器的样式问题 （如在vue-cli中，学在app.vue 中设置 合适的font-size, 如16px)
+
+当控制台出现屏幕过小，无法打开播放时，多半时ckplayr和其他资源的引入顺序需调整
